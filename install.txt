@@ -1,0 +1,10 @@
+INSTALLATION GUIDE - FIRE ALARM MONITORING SYSTEM
+----------------------------------------------------
+1) Restore firesensordb.sql MySQL dump
+2) Run SpringBootMysqlApplication.java in spring-boot-mysql project
+3) It will starts the backend in 8080
+4) Run FireSensorMain.java in Firesensor Project. It acts the behaviour of a fire sensor
+4) Go to web-client and run 'npm install' command to download node modules
+5) Run 'npm start' to start the front end react app
+6) Run 'start rmiregistry' command
+7) Go to Fire-Alarm-Monitoring-System-Desktop project and run Client app.java to launch desktop application
